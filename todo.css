@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+
+
+
+body{
+    background-image: linear-gradient(to right,rgb(240, 170, 217), rgb(245, 215, 243), rgb(170, 220, 237));
+     color: rgb(5, 31, 80);
+     font-family: 'Ubuntu', sans-serif;
+     
+}
+ 
+ .parent{
+  text-align: center;
+  min-height: 100vh;
+  margin-bottom: -130px;
+ } 
+
+ .illustration{
+   display: inline-block;
+   width:17vw;
+   position: absolute;
+   margin-left: 27px;
+   margin-top: 100px;
+ }
+
+#todo-title{
+   height: 6vh;
+   width: 50vw;
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:28px;
+    border-radius: 20px;
+   border: solid;
+    border-width: 0.3px;
+    border-color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    
+    box-shadow: 1px 1px 7px rgb(148, 148, 148);
+   
+    
+
+}
+ #todo-div{
+   border:none;
+   border-radius: 20px;
+   border-color: rgb(244, 137, 223);
+   font-size: larger;
+   display: inline-block;
+   padding: 8px;
+   box-shadow: 1px 1px 6px rgb(156, 156, 156);
+   position: relative;
+   margin: auto;
+ }  
+
+
+ #date-picker{
+    color: rgb(219, 0, 143);
+    background-color: rgba(74, 176, 240, 0.354);
+    margin-left: 14px;
+    margin-bottom: 50px;
+    border:none;
+    border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    height: 22px;
+    
+ }
+ 
+ #add-button{
+    border-radius: 10px;
+    border-width: 0.6px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, rgba(41, 54, 60, 0.567), rgba(255, 5, 13, 0.849));
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    border:none;
+    box-shadow: 1px 1px 5px rgb(117, 115, 115);
+    font-weight: bold;
+ }
+  
+  footer, .push{
+   
+   height: 110px;
+   }
+
+   .footerdiv{
+    
+      text-align: center;
+   }
+.instalogo{
+      display: inline-block;
+      width:7vh;
+     
+   }
+   
+   
+ @media screen and (max-width:500px){
+   #todo-title{
+      height: 5vh;
+      width: 65vw;
+      margin-bottom: 20px;
+   }
+   #date-picker{
+      margin-bottom: 35px;
+   }
+   #todo-div{
+      font-size: larger;
+   }
+   .illustration{
+      margin-top: 120px;
+      margin-left: 0%;
+     
+      width:17vw;
+   }
+}
