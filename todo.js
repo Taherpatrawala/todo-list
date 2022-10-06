@@ -10,15 +10,15 @@
          else{
      
          todos=[{
-         title:'Learn SQL',
-         dueDate:'25-10-2022',
+         title:'Hey,Taher here..',
+         dueDate:'6-10-2022',
          id:'h1'
             },
-           {title:'Full stack application',
-            dueDate:'12-11-2022',
+           {title:'Enter whatever you want to log',
+            dueDate:'12-10-2022',
             id:'h2'},
-           { title: 'My Birthday',
-           dueDate:'29-11-2022',
+           { title: 'Your entered to-do list would be saved in the browser cookies',
+           dueDate:'05-11-2022',
            id:'h3'}];
      
      render();
